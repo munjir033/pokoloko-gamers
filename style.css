@@ -358,3 +358,48 @@ nav .follow-btn{
         font-size: 0.8rem;
     }
 }
+/* resposive for tablet devices */
+@media screen and (min-width: 576px) and (max-width: 990px) {
+    nav{
+        padding: 8px 15px;
+    }
+    nav ul li{
+        margin-left: 2px;
+        
+    }
+    nav .follow-btn{
+        padding: 10px 8px;
+    }
+    .header-content{
+        margin-top: 30px;
+    }
+    .header-text{
+        width: 50vw;
+    }
+    .header-text h1{
+        font-size: 4rem;
+    }
+    .header-image img{
+        width: 30vw;
+    }
+    .btn-container .primary-btn{
+        margin-top: 15px;
+    }
+
+    .we-are-gamers-text{
+        width: 50vw;
+    }
+    .we-are-gamers-image img{
+        width: 40vw;
+    }
+    .play-instantly-image img{
+        width: 40vw;
+    }
+    .play-instantly-text{
+        width: 50vw;
+    }
+
+    .game-item{
+        gap: 5px;
+    }
+}
